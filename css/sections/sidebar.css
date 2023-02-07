@@ -3,6 +3,7 @@
   color: var(--main-text);
   height: calc(100vh - 90px);
   width: 50px;
+  z-index: 1000;
 }
 
 #sidebar .hidden {

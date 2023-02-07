@@ -5,6 +5,17 @@ main {
   width: calc(100% - 50px);
 }
 
+main .opacity-header {
+  background-color: var(--opacity-color);
+  height: 90px;
+  position: fixed;
+  left: 0;
+  opacity: 0.7;
+  right: 0;
+  top: 0;
+  z-index: 999;
+}
+
 /* 
 =============
 Responsive
