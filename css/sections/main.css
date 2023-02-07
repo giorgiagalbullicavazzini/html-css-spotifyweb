@@ -1,0 +1,22 @@
+main {
+  background-color: var(--main-color);
+  color: var(--second-text);
+  height: calc(100vh - 90px);
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: calc(100vw - 50px);
+}
+
+/* 
+=============
+Responsive
+=============
+*/
+
+@media screen and (min-width: 553px) {
+
+  main {
+    width: calc(100vw - 230px);
+  }
+}
