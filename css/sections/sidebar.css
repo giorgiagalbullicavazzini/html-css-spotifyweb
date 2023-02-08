@@ -4,7 +4,6 @@
   flex-direction: column;
   height: calc(100vh - 90px);
   margin-top: auto;
-  min-height: 130px;
   width: 50px;
 }
 

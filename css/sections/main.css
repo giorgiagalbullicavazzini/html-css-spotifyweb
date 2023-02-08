@@ -1,7 +1,6 @@
 main {
   background-color: var(--main-color);
   color: var(--second-text);
-  min-height: 130px;
   overflow-y: auto;
   width: calc(100% - 50px);
 }
