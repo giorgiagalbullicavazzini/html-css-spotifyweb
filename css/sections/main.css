@@ -27,12 +27,22 @@ main nav#songs ul {
 }
 
 main h2,
-main .title {
+main h3 {
   color: var(--second-text);
 }
 
-main .subtitle {
+main h4 {
   color: var(--main-text);
+}
+
+main section {
+  text-align: center;
+}
+
+main h2,
+main #suggested h4,
+main #artists h4 {
+  text-align: left;
 }
 
 main section ul {
@@ -41,6 +51,10 @@ main section ul {
 
 main section ul li {
   width: calc(50% - 10px);
+}
+
+main #artists img {
+  border-radius: 50%;
 }
 
 /* 
