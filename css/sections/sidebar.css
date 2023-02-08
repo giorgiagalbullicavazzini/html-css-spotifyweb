@@ -21,4 +21,8 @@ Responsive
   #sidebar {
     width: 230px;
   }
+
+  #sidebar .hidden {
+    display: block;
+  }
 }
