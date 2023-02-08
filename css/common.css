@@ -1,5 +1,10 @@
+body {
+  height: 100vh;
+}
+
 .top-container {
-  height: calc(100vh - 90px);
+  height: calc(100% - 90px);
+  min-height: 130px;
 }
 
 img {
