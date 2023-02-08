@@ -15,6 +15,24 @@ main .opacity-header {
   top: 0;
 }
 
+main nav#songs {
+  color: var(--main-text);
+  margin-top: 100px;
+}
+
+main nav#songs ul {
+  flex-wrap: wrap;
+}
+
+main #recent ul {
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+main #recent .image {
+  width: 200px;
+}
+
 /* 
 =============
 Responsive
