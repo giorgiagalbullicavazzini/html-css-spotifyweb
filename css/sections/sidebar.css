@@ -3,12 +3,17 @@
   color: var(--main-text);
   flex-direction: column;
   height: calc(100vh - 90px);
-  margin-top: auto;
+  overflow: hidden;
   width: 50px;
 }
 
 #sidebar .hidden {
   display: none;
+}
+
+#sidebar .scroll {
+  min-height: 50px;
+  overflow-y: auto;
 }
 
 #sidebar .sidebar-bottom {
