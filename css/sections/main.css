@@ -26,11 +26,11 @@ main nav#songs ul {
 
 main #recent ul {
   flex-wrap: wrap;
-  gap: 25px;
+  gap: 10px;
 }
 
-main #recent .image {
-  width: 200px;
+main #recent ul li {
+  width: calc(50% - 10px);
 }
 
 /* 
@@ -47,5 +47,19 @@ Responsive
 
   main .opacity-header {
     left: 230px;
+  }
+}
+
+@media screen and (min-width: 641px) {
+
+  main #recent ul li {
+    width: calc(100% / 4 - 10px);
+  }
+}
+
+@media screen and (min-width: 879px) {
+
+  main #recent ul li {
+    width: calc(100% / 6 - 10px);
   }
 }
