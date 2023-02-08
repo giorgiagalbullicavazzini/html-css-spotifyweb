@@ -20,9 +20,11 @@ main .opacity-header {
 main nav#songs {
   color: var(--main-text);
   margin: 100px 0 45px;
+  text-transform: uppercase;
 }
 
 main nav#songs ul {
+  gap: 25px;
   justify-content: center;
 }
 
