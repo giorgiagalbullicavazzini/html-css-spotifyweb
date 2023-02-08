@@ -6,8 +6,10 @@ main {
 }
 
 main .opacity-header {
+  align-items: center;
   background-color: var(--opacity-color);
   height: 90px;
+  justify-content: flex-end;
   position: fixed;
   left: 50px;
   opacity: 0.7;
@@ -22,6 +24,7 @@ main nav#songs {
 
 main nav#songs ul {
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 main #recent ul {
