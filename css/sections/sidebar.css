@@ -1,10 +1,15 @@
 #sidebar {
+  align-items: center;
   background-color: var(--sidebar-color);
   color: var(--main-text);
   flex-direction: column;
   height: calc(100vh - 90px);
   overflow: hidden;
   width: 50px;
+}
+
+#sidebar .logo {
+  padding: 5px 10px;
 }
 
 #sidebar .hidden {
@@ -29,7 +34,21 @@ Responsive
 @media screen and (min-width: 553px) {
 
   #sidebar {
+    align-items: flex-start;
+    padding-left: 20px;
     width: 230px;
+  }
+
+  #sidebar .logo {
+    padding: 20px 0;
+  }
+
+  #sidebar .logo {
+    width: 65%;
+  }
+
+  #sidebar .visible {
+    display: none;
   }
 
   #sidebar .hidden {
