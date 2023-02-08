@@ -2,6 +2,20 @@ footer {
   background-color: var(--footer-color);
   color: var(--second-text);
   height: 90px;
+  justify-content: space-between;
   position: relative;
   z-index: 1000;
+}
+
+/* 
+=============
+Responsive
+=============
+*/
+
+@media screen and (min-width: 641px) {
+
+  footer .footer-left .save {
+    display: flex;
+  }
 }
