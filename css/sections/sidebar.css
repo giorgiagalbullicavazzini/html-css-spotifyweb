@@ -19,12 +19,29 @@
   width: 30px;
 }
 
+#sidebar .nav li:hover .hidden {
+  color: var(--second-text);
+}
+
 #sidebar .nav .special .hidden {
   color: var(--second-text);
 }
 
 #sidebar .hidden {
   display: none;
+}
+
+#sidebar .add-playlist .image i {
+  color: #d2d2d2;
+  font-size: 45px;
+}
+
+#sidebar .add-playlist .hidden {
+  padding-left: 15px;
+}
+
+#sidebar .scroll li:hover {
+  color: var(--second-text);
 }
 
 #sidebar .scroll {
