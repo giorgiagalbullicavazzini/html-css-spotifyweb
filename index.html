@@ -32,38 +32,76 @@
 
       <!-- Nav -->
       <ul class="nav">
-        <li id="homepage"><span class="hidden">Home</span></li>
-        <li id="search"><span class="hidden">Cerca</span></li>
-        <li id="library"><span class="hidden">La tua libreria</span></li>
+        <li>
+          <a href="#">
+            <div class="flex align-center">
+              <div class="image"><img src="img/home.svg" alt="Homepage"></div>
+              <div class="hidden">Home</div>
+            </div>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <div class="flex align-center">
+              <div class="image"><img src="img/search.svg" alt="Cerca"></div>
+              <div class="hidden">Cerca</div>
+            </div>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <div class="flex align-center">
+              <div class="image"><img src="img/libreria.svg" alt="Libreria"></div>
+              <div class="hidden">La tua libreria</div>
+            </div>
+          </a>
+        </li>
       </ul>
       <!-- // Nav -->
       
       <!-- Add playlist -->
       <div class="add-playlist hidden">
         <div><strong>Playlist</strong></div>
-        <div><span>+</span> Crea Playlist</div>
+        <a href="#">
+          <div class="flex align-center">
+            <div class="image"><img src="img/libreria.svg" alt="Libreria"></div>
+            <div class="hidden">Crea Playlist</div>
+          </div>
+        </a>
       </div>
       <!-- // Add playlist -->
 
       <!-- Playlist -->
       <div class="scroll hidden">
         <ul>
-          <li>Nome Playlist</li>
-          <li>Nome Playlist</li>
-          <li>Nome Playlist</li>
-          <li>Nome Playlist</li>
-          <li>Nome Playlist</li>
-          <li>Nome Playlist</li>
-          <li>Nome Playlist</li>
+          <li><a href="#">Nome Playlist</a></li>
+          <li><a href="#">Nome Playlist</a></li>
+          <li><a href="#">Nome Playlist</a></li>
+          <li><a href="#">Nome Playlist</a></li>
+          <li><a href="#">Nome Playlist</a></li>
+          <li><a href="#">Nome Playlist</a></li>
+          <li><a href="#">Nome Playlist</a></li>
         </ul>
       </div>
       <!-- // Playlist -->
       
       <!-- Bottom sidebar -->
       <div class="sidebar-bottom">
-        <div>1 <span class="hidden">Installa app</span></div>
+        <a href="#">
+          <div class="flex align-center">
+            <div class="image"><img src="img/libreria.svg" alt="Libreria"></div>
+            <div class="hidden">Crea Playlist</div>
+          </div>
+        </a>
         <hr>
-        <div>2 <span class="hidden"><strong>John Doe</strong></span></div>
+        <a href="#">
+          <div class="flex align-center">
+            <div class="image"><img src="img/libreria.svg" alt="Libreria"></div>
+            <div class="hidden">Crea Playlist</div>
+          </div>
+        </a>
       </div>
       <!-- // Bottom sidebar -->
     </nav>
@@ -73,7 +111,7 @@
     <main>
       <!-- Header -->
       <div class="opacity-header flex">
-        <button>Effettua l'upgrade</button>
+        <button><a href="#">Effettua l'upgrade</a></button>
       </div>
       <!-- // Header -->
 
@@ -82,12 +120,12 @@
         <!-- Nav main -->
         <nav id="songs">
           <ul class="flex wrap">
-            <li>In evidenza</li>
-            <li>Podcast</li>
-            <li>Classifiche</li>
-            <li>Generi e mood</li>
-            <li>Nuove uscite</li>
-            <li>Scopri</li>
+            <li><a href="#">In evidenza</a></li>
+            <li><a href="#">Podcast</a></li>
+            <li><a href="#">Classifiche</a></li>
+            <li><a href="#">Generi e mood</a></li>
+            <li><a href="#">Nuove uscite</a></li>
+            <li><a href="#">Scopri</a></li>
           </ul>
         </nav>
         <!-- // Nav main -->
@@ -97,51 +135,75 @@
           <h2>Recently played</h2>
           <ul class="flex wrap">
             <li>
-              <div class="image">
-                <img src="img/metal_lifting.jpg" alt="Playlist di album del genere Heavy Metal">
-              </div>
-              <h3 class="title">Heavy Metal</h3>
-              <h4 class="subtitle">Subtitle</h4>
+              <a href="#">
+                <div class="hover">
+                  <div class="image">
+                    <img src="img/metal_lifting.jpg" alt="Playlist di album del genere Heavy Metal">
+                  </div>
+                  <h3 class="title">Heavy Metal</h3>
+                </div>
+                <h4 class="subtitle">Subtitle</h4>
+              </a>
             </li>
 
             <li>
-              <div class="image">
-                <img src="img/stranger.jpeg" alt="Album numero 1 delle colonne sonore di Stranger Things">
-              </div>
-              <h3 class="title">Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</h3>
-              <h4 class="subtitle">Kyle Dixon & Michael Stein</h4>
+              <a href="#">
+                <div class="hover">
+                  <div class="image">
+                    <img src="img/stranger.jpeg" alt="Album numero 1 delle colonne sonore di Stranger Things">
+                  </div>
+                  <h3 class="title">Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</h3>
+                </div>
+                <h4 class="subtitle">Kyle Dixon & Michael Stein</h4>
+              </a>
             </li>
 
             <li>
-              <div class="image">
-                <img src="img/aquietplace.jpeg" alt="Album dal titolo A quiet place">
-              </div>
-              <h3 class="title">A quiet place</h3>
-              <h4 class="subtitle">Subtitle</h4>
+              <a href="#">
+                <div class="hover">
+                  <div class="image">
+                    <img src="img/aquietplace.jpeg" alt="Album dal titolo A quiet place">
+                  </div>
+                  <h3 class="title">A quiet place</h3>
+                </div>
+                <h4 class="subtitle">Subtitle</h4>
+              </a>
             </li>
 
             <li>
-              <div class="image">
-                <img src="img/split.jpeg" alt="Album dal titolo Split">
-              </div>
-              <h3 class="title">Split</h3>
-              <h4 class="subtitle">Subtitle</h4>
+              <a href="#">
+                <div class="hover">
+                  <div class="image">
+                    <img src="img/split.jpeg" alt="Album dal titolo Split">
+                  </div>
+                  <h3 class="title">Split</h3>  
+                </div>
+                <h4 class="subtitle">Subtitle</h4>
+              </a>
             </li>
 
             <li>
-              <div class="image">
-                <img src="img/cure.jpeg" alt="Album dal titolo A cure for wellness">
-              </div>
-              <h3 class="title">A cure for wellness</h3>
-              <h4 class="subtitle">Subtitle</h4>
+              <a href="#">
+                <div class="hover">
+                  <div class="image">
+                    <img src="img/cure.jpeg" alt="Album dal titolo A cure for wellness">
+                  </div>
+                  <h3 class="title">A cure for wellness</h3>
+                </div>
+                <h4 class="subtitle">Subtitle</h4>
+              </a>
             </li>
 
             <li>
-              <div class="image">
-                <img src="img/sinister.jpeg" alt="Album dal titolo Sinister">
-              </div>
-              <h3 class="title">Sinister</h3>
-              <h4 class="subtitle">Subtitle</h4>
+              <a href="#">
+                <div class="hover">
+                  <div class="image">
+                    <img src="img/sinister.jpeg" alt="Album dal titolo Sinister">
+                  </div>
+                  <h3 class="title">Sinister</h3>
+                </div>
+                <h4 class="subtitle">Subtitle</h4>
+              </a>
             </li>
           </ul>
         </section>
@@ -152,18 +214,22 @@
           <h2>Creato per John Doe</h2>
           <h4 class="subtitle">Più ascolti, più accurati saranno i suggerimenti.</h4>
           <ul class="flex wrap">
-            <li>
-              <div class="image">
-                <img src="img/radar.jpeg" alt="Immagine promozionale - Il tuo Release Radar">
-              </div>
-              <h3 class="title">Release Radar</h3>
+            <li class="hover">
+              <a href="#">
+                <div class="image">
+                  <img src="img/radar.jpeg" alt="Immagine promozionale - Il tuo Release Radar">
+                </div>
+                <h3 class="title">Release Radar</h3>
+              </a>
             </li>
 
-            <li>
-              <div class="image">
-                <img src="img/mixdaily.jpeg" alt="Immagine promozionale - Il tuo Daily Mix 1">
-              </div>
-              <h3 class="title">Daily Mix 1</h3>
+            <li class="hover">
+              <a href="#">
+                <div class="image">
+                  <img src="img/mixdaily.jpeg" alt="Immagine promozionale - Il tuo Daily Mix 1">
+                </div>
+                <h3 class="title">Daily Mix 1</h3>
+              </a>
             </li>
           </ul>
         </section>
@@ -174,18 +240,22 @@
           <h2>Artisti più popolari</h2>
           <h4 class="subtitle">Più ascolti, più accurati saranno i suggerimenti.</h4>
           <ul class="flex wrap">
-            <li>
-              <div class="image">
-                <img src="img/youg.jpeg" alt="Lana del Rey">
-              </div>
-              <h3 class="title">Lana del Rey</h3>
+            <li class="hover">
+              <a href="#">
+                <div class="image">
+                  <img src="img/youg.jpeg" alt="Lana del Rey">
+                </div>
+                <h3 class="title">Lana del Rey</h3>
+              </a>
             </li>
 
-            <li>
-              <div class="image">
-                <img src="img/einaudi.jpeg" alt="Ludovico Einaudi">
-              </div>
-              <h3 class="title">Ludovico Einaudi</h3>
+            <li class="hover">
+              <a href="#">
+                <div class="image">
+                  <img src="img/einaudi.jpeg" alt="Ludovico Einaudi">
+                </div>
+                <h3 class="title">Ludovico Einaudi</h3>
+              </a>
             </li>
           </ul>
         </section>
@@ -205,11 +275,11 @@
       </div>
       <div class="track">
         <h4 class="artist">Sinister</h4>
-        <div class="title">Brano Nome</div>
+        <div class="title"><a href="#">Brano Nome</a></div>
       </div>
-      <div class="save">
-        <div><i class="fa-regular fa-heart"></i></div>
-        <div><i class="fa-regular fa-folder"></i></div>
+      <div class="save"></a>
+        <div><a href="#"><i class="fa-regular fa-heart"></i></a></div>
+        <div><a href="#"><i class="fa-regular fa-folder"></i></a></div>
       </div>
     </div>
     <!-- // In riproduzione -->
@@ -217,11 +287,11 @@
     <!-- Player -->
     <div class="footer-center">
       <div class="player">
-        <span><i class="fa-solid fa-shuffle"></i></span>
-        <span><i class="fa-solid fa-backward-step"></i></span>
-        <span class="border"><i class="fa-solid fa-play"></i></span>
-        <span><i class="fa-solid fa-forward-step"></i></span>
-        <span><i class="fa-solid fa-rotate-right"></i></span>
+        <span><a href="#"><i class="fa-solid fa-shuffle"></i></a></span>
+        <span><a href="#"><i class="fa-solid fa-backward-step"></i></a></span>
+        <span class="border"><a href="#"><i class="fa-solid fa-play"></i></a></span>
+        <span><a href="#"><i class="fa-solid fa-forward-step"></i></a></span>
+        <span><a href="#"><i class="fa-solid fa-rotate-right"></i></a></span>
       </div>
       <div class="timer flex align-center">
         <span>0:25</span>
@@ -237,9 +307,9 @@
     <!-- Volume -->
     <div class="footer-right flex align-center">
       <div class="options">
-        <span><i class="fa-solid fa-list-ul"></i></span>
-        <span><i class="fa-solid fa-desktop"></i></span>
-        <span><i class="fa-solid fa-volume-high"></i></span>
+        <span><a href="#"><i class="fa-solid fa-list-ul"></i></a></span>
+        <span><a href="#"><i class="fa-solid fa-desktop"></i></a></span>
+        <span><a href="#"><i class="fa-solid fa-volume-high"></i></a></span>
       </div>
       <div class="bar flex">
         <div class="current-time"></div>

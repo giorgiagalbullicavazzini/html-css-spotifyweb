@@ -12,23 +12,11 @@
   padding: 5px 10px;
 }
 
-#sidebar .nav li:before {
-  content: url(../../img/home.svg);
-  display: inline-block;
-  vertical-align: middle;
+#sidebar .nav li .image,
+#sidebar .add-playlist .image,
+#sidebar .sidebar-bottom .image {
+  margin-right: 5px;
   width: 30px;
-}
-
-#sidebar .nav li#homepage:before {
-  content: url(../../img/home.svg);
-}
-
-#sidebar .nav li#search:before {
-  content: url(../../img/search.svg);
-}
-
-#sidebar .nav li#library:before {
-  content: url(../../img/libreria.svg);
 }
 
 #sidebar .hidden {

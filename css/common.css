@@ -1,3 +1,9 @@
+/* 
+=============
+Container
+=============
+*/
+
 body {
   font-family: 'Montserrat', sans-serif;;
   height: 100vh;
@@ -5,6 +11,17 @@ body {
 
 .top-container {
   height: calc(100% - 90px);
+}
+
+/* 
+=============
+Common elements
+=============
+*/
+
+a {
+  color: currentColor;
+  text-decoration: none;
 }
 
 img {
@@ -15,6 +32,12 @@ img {
 ul {
   list-style: none;
 }
+
+/* 
+=============
+Flex
+=============
+*/
 
 .flex {
   display: flex;
