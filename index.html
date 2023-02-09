@@ -201,15 +201,15 @@
     <!-- In riproduzione -->
     <div class="footer-left flex align-center">
       <div class="image">
-        Album
+        <img src="img/sinister.jpeg" alt="Album dal titolo Sinister">
       </div>
       <div class="track">
-        <div class="artist">Sinister</div>
+        <h4 class="artist">Sinister</h4>
         <div class="title">Brano Nome</div>
       </div>
       <div class="save">
-        <div>1</div>
-        <div>2</div>
+        <div><i class="fa-regular fa-heart"></i></div>
+        <div><i class="fa-regular fa-folder"></i></div>
       </div>
     </div>
     <!-- // In riproduzione -->
@@ -217,28 +217,34 @@
     <!-- Player -->
     <div class="footer-center">
       <div class="player">
-        <span>1</span>
-        <span>2</span>
-        <span>3</span>
-        <span>4</span>
-        <span>5</span>
+        <span><i class="fa-solid fa-shuffle"></i></span>
+        <span><i class="fa-solid fa-backward-step"></i></span>
+        <span class="border"><i class="fa-solid fa-play"></i></span>
+        <span><i class="fa-solid fa-forward-step"></i></span>
+        <span><i class="fa-solid fa-rotate-right"></i></span>
       </div>
-      <div class="timer flex">
+      <div class="timer flex align-center">
         <span>0:25</span>
-        <div class="bar">Linea</div>
+        <div class="bar flex">
+          <div class="current-time"></div>
+          <div class="remaining-time"></div>
+        </div>
         <span>4:35</span>
       </div>
     </div>
     <!-- // Player -->
 
     <!-- Volume -->
-    <div class="footer-right flex">
+    <div class="footer-right flex align-center">
       <div class="options">
-        <span>1</span>
-        <span>2</span>
-        <span>3</span>
+        <span><i class="fa-solid fa-list-ul"></i></span>
+        <span><i class="fa-solid fa-desktop"></i></span>
+        <span><i class="fa-solid fa-volume-high"></i></span>
       </div>
-      <div class="bar">Linea</div>
+      <div class="bar flex">
+        <div class="current-time"></div>
+        <div class="remaining-time"></div>
+      </div>
     </div>
     <!-- // Volume -->
   </footer>

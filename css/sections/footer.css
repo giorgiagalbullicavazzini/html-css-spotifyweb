@@ -7,6 +7,86 @@ footer {
   z-index: 1000;
 }
 
+footer > *:not(.footer-center) {
+  width: 20%;
+}
+
+/* 
+=============
+Footer left
+=============
+*/
+
+footer .footer-left .image {
+  height: 30px;
+  width: 30px;
+}
+
+footer .footer-left .title,
+footer .footer-left .save {
+  color: var(--main-text);
+}
+
+/* 
+=============
+Footer center
+=============
+*/
+
+footer .footer-center {
+  width: 30%;
+}
+
+footer .footer-center .player {
+  text-align: center;
+}
+
+footer .footer-center .player .border {
+  border-radius: 50%;
+  border: 3px solid var(--second-text);
+  padding: 2px 5px;
+}
+
+footer .footer-center .player .border i {
+  margin-left: 2px;
+  margin-top: 2px;
+}
+
+/* 
+=============
+Footer bars
+=============
+*/
+
+footer .bar {
+  height: 5px;
+  width: 80%;
+}
+
+footer .bar .current-time,
+footer .bar .remaining-time {
+  border-radius: 5px;
+}
+
+footer .bar .current-time {
+  background-color: var(--second-text);
+  left: 5px;
+  position: relative;
+  width: 20%;
+}
+
+footer .bar .remaining-time {
+  background-color: var(--main-text);
+  margin-right: 5px;
+  width: 80%;
+}
+
+/* 
+=============
+Footer right
+=============
+*/
+
 /* 
 =============
 Responsive
@@ -14,6 +94,11 @@ Responsive
 */
 
 @media screen and (min-width: 641px) {
+
+  footer .footer-left .image {
+    height: 40px;
+    width: 40px;
+  }
 
   footer .footer-left .save {
     display: flex;
