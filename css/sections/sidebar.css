@@ -19,7 +19,8 @@
   width: 30px;
 }
 
-#sidebar .nav li:hover .hidden {
+#sidebar .nav li:hover .hidden,
+#sidebar .sidebar-bottom .flex:not(.profile):hover .hidden {
   color: var(--second-text);
 }
 
@@ -29,6 +30,11 @@
 
 #sidebar .hidden {
   display: none;
+}
+
+#sidebar .add-playlist .flex:hover,
+#sidebar .add-playlist .flex:hover .image i {
+  color: var(--second-text);
 }
 
 #sidebar .add-playlist .image i {
@@ -51,6 +57,22 @@
 
 #sidebar .sidebar-bottom {
   margin-top: auto;
+}
+
+#sidebar .sidebar-bottom .profile {
+  color: var(--second-text);
+}
+
+#sidebar .sidebar-bottom .profile img {
+  background-color: #808080;
+  border-radius: 50%;
+  height: 30px;
+  object-fit: contain;
+  width: 30px;
+}
+
+#sidebar .sidebar-bottom .profile .hidden {
+  cursor: text;
 }
 
 /* 
