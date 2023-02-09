@@ -28,6 +28,10 @@ main nav#songs ul {
   justify-content: center;
 }
 
+main nav#songs ul li a:hover {
+  color: var(--second-text);
+}
+
 main h2,
 main h3 {
   color: var(--second-text);
