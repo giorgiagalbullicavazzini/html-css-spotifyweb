@@ -19,6 +19,10 @@
   width: 30px;
 }
 
+#sidebar .nav .special .hidden {
+  color: var(--second-text);
+}
+
 #sidebar .hidden {
   display: none;
 }
@@ -64,5 +68,17 @@ Responsive
 
   #sidebar .hidden {
     display: inline;
+  }
+
+  #sidebar .nav .relative {
+    position: relative;
+  }
+  
+  #sidebar .nav .special:before {
+    border-left: 3px solid #adff2f;
+    content: "";
+    height: 100%;
+    left: -20px;
+    position: absolute;
   }
 }
