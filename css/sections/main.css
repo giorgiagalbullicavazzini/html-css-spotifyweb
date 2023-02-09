@@ -28,8 +28,26 @@ main nav#songs ul {
   justify-content: center;
 }
 
+main nav#songs ul li {
+  padding: 5px 0;
+}
+
 main nav#songs ul li a:hover {
   color: var(--second-text);
+}
+
+main nav#songs ul li.special {
+  position: relative;
+}
+
+main nav#songs ul li.special:before {
+  border-bottom: 2px solid #adff2f;
+  bottom: 0;
+  content: "";
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%);
+  width: 30%;
 }
 
 main h2,
