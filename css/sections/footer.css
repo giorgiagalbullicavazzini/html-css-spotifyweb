@@ -27,6 +27,15 @@ footer .footer-left .save {
   color: var(--main-text);
 }
 
+footer .footer-left .title:hover {
+  text-decoration: underline;
+}
+
+footer .footer-left .title:hover,
+footer .footer-left .save i:hover {
+  color: var(--second-text);
+}
+
 /* 
 =============
 Footer center
