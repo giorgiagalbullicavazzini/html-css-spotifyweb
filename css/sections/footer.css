@@ -50,6 +50,10 @@ footer .footer-center .player {
   text-align: center;
 }
 
+footer .footer-center .player .fa-circle-play:hover {
+  transform: scale(1.2);
+}
+
 footer .footer-center .timer .timer-right {
   margin-left: 5px;
 }
@@ -82,11 +86,28 @@ footer .bar .remaining-time {
   width: 80%;
 }
 
-/* 
-=============
-Footer right
-=============
-*/
+footer .bar {
+  position: relative;
+}
+
+footer .bar:hover {
+  cursor: pointer;
+}
+
+footer .bar:hover .current-time {
+  background-color: #adff2f;
+}
+
+footer .bar:hover .circle {
+  display: block;
+}
+
+footer .circle {
+  display: none;
+  left: 20%;
+  position: absolute;
+  top: -7px;
+}
 
 /* 
 =============
