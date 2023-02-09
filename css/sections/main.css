@@ -41,6 +41,29 @@ main section {
   text-align: center;
 }
 
+main section .image {
+  position: relative;
+}
+
+main section .hover:hover img {
+  background-color: var(--sidebar-color);
+  opacity: 0.7;
+}
+
+main section .hover .play {
+  color: var(--second-text);
+  display: none;
+  font-size: 70px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+main section .hover:hover .play {
+  display: block;
+}
+
 main h2,
 main #suggested h4,
 main #artists h4 {
