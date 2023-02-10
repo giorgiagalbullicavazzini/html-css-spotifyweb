@@ -37,6 +37,7 @@ main button:hover {
 
 main nav#songs {
   color: var(--main-text);
+  font-weight: 600;
   margin: 100px 0 45px;
   text-transform: uppercase;
 }
@@ -71,6 +72,14 @@ main nav#songs ul li.special:before {
 main h2,
 main h3 {
   color: var(--second-text);
+}
+
+main h2 {
+  font-size: 30px;
+}
+
+main h3 {
+  font-size: 20px;
 }
 
 main h4 {
