@@ -3,6 +3,7 @@ footer {
   color: var(--second-text);
   height: 90px;
   justify-content: space-between;
+  padding: 25px;
   position: relative;
   z-index: 1000;
 }
@@ -19,6 +20,7 @@ Footer left
 
 footer .footer-left .image {
   height: 30px;
+  margin-right: 15px;
   width: 30px;
 }
 
@@ -36,6 +38,15 @@ footer .footer-left .save i:hover {
   color: var(--second-text);
 }
 
+footer .footer-left .save {
+  margin-left: 15px;
+}
+
+footer .footer-left .save > * {
+  display: inline-block;
+  margin: 3px 5px;
+}
+
 /* 
 =============
 Footer center
@@ -47,7 +58,13 @@ footer .footer-center {
 }
 
 footer .footer-center .player {
+  font-size: 20px;
   text-align: center;
+}
+
+footer .footer-center .player > * {
+  display: inline-block;
+  margin: 3px 5px;
 }
 
 footer .footer-center .player .fa-circle-play:hover {
@@ -66,6 +83,7 @@ Footer bars
 
 footer .bar {
   height: 5px;
+  position: relative;
   width: 100%;
 }
 
@@ -84,10 +102,6 @@ footer .bar .current-time {
 footer .bar .remaining-time {
   background-color: var(--main-text);
   width: 80%;
-}
-
-footer .bar {
-  position: relative;
 }
 
 footer .bar:hover {
@@ -111,6 +125,23 @@ footer .circle {
 
 /* 
 =============
+Footer right
+=============
+*/
+
+footer .footer-right .options {
+  font-size: 16px;
+  text-align: center;
+  width: 35%;
+}
+
+footer .footer-right .options > * {
+  display: inline-block;
+  margin: 3px 5px;
+}
+
+/* 
+=============
 Responsive
 =============
 */
@@ -118,8 +149,8 @@ Responsive
 @media screen and (min-width: 641px) {
 
   footer .footer-left .image {
-    height: 40px;
-    width: 40px;
+    height: 60px;
+    width: 60px;
   }
 
   footer .footer-left .save {

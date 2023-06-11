@@ -67,6 +67,10 @@
   padding-left: 15px;
 }
 
+#sidebar .scroll {
+  width: 100%;
+}
+
 #sidebar .scroll li:hover {
   color: var(--second-text);
 }
